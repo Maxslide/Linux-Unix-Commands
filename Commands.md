@@ -18,4 +18,12 @@
 - This will show all lines which have the word ```GNU``` in that file
 - To search over multiple files in a directory, use ```grep``` with ```-r``` flag, like ``` grep -r GNU .```. Here ```-r``` stands for recursive search and ```.``` specifies the search root to be the current directory.
 
+## Viewing Files and Directories in a given directory
+- Standard syntac -> ls <directory_name> -<flags>
+- If no directory_name, the command displays the files and directories in the current working directory
+- if no flag is assigned, then it displays a list of all the non hidden files and directories in the given dirrectory.
+- eg of few flags: ls -l, ls -a, ls -al.
+- -l flag diplays detailed list of the file and directories, specifying information about each file and folder.
+- -a flag displays even the hidden files.
+- -al does the job of -a and -l
 
